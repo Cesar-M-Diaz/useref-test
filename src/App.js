@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+// import FocusApp from './FocusApp';
+// import CopyApp from './CopyApp';
+// import MediaPlayer from './MediaPlayer';
+// import ScrollAnimation from './ScrollAnimation';
+// import RenderApp from './RenderApp';
+import LoadingApp from './LoadingApp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <FocusApp /> */}
+      {/* <CopyApp /> */}
+      {/* <MediaPlayer /> */}
+      {/* <ScrollAnimation /> */}
+      {/* <RenderApp /> */}
+      <LoadingApp />
     </div>
   );
 }
